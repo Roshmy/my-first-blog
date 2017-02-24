@@ -124,4 +124,4 @@ STATICFILES_DIRS = [
     # os.path.join(BASE_DIR, "./theatre/static/theatre/assets")
     # '/var/www/static/',
 ]
-STATIC_ROOT = os.path.join(DATA_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
